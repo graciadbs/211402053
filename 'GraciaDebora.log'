@@ -1,0 +1,45 @@
+MariaDB [(none)]> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| db_spp             |
+| elearning          |
+| information_schema |
+| lab_pwl            |
+| mysql              |
+| oyoy               |
+| payspp             |
+| performance_schema |
+| phpmyadmin         |
+| praksbd            |
+| proweb             |
+| stockbarang        |
+| task_manager       |
+| test               |
+| tubes_pwl          |
+| tubessbd           |
+| tubessbd1          |
+| userlogin          |
++--------------------+
+18 rows in set (0.001 sec)
+
+MariaDB [(none)]> use task_manager;
+Database changed
+MariaDB [task_manager]> show tables;
++------------------------+
+| Tables_in_task_manager |
++------------------------+
+| failed_jobs            |
+| migrations             |
+| password_resets        |
+| personal_access_tokens |
+| task_categories        |
+| task_dailies           |
+| task_indicators        |
+| task_persons           |
+| task_plans             |
+| users                  |
++------------------------+
+10 rows in set (0.002 sec)
+
+MariaDB [task_manager]> exit;
